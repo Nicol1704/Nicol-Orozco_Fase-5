@@ -1,0 +1,174 @@
+/* Estilos generales */
+body, html {
+  font-family: 'Lemon Tea', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f3e5f5; /* Fondo morado pastel */
+  color: #000; /* Negro */
+}
+
+/* Estilos del header */
+header {
+  background-color: #b39ddb; /* Morado pastel */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Dirección de columna */
+  align-items: center; /* Centrar horizontalmente */
+}
+
+.logo {
+  margin-bottom: 150px; /* Espacio entre el logo y el título */
+  display: flex; /* Añadir flexbox para centrar el logo horizontalmente */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
+.titulo {
+  margin-top: 20px;
+  margin-bottom: 20px; /* Espacio entre el título y otros elementos */
+}
+
+/* Resto de estilos permanecen igual */
+
+.titulo h1 {
+  font-family: 'Adelia', serif; /* Fuente Adelia */
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: #000000; /* Negro */
+}
+
+.titulo p {
+  font-size: 20px;
+}
+
+/* Estilos de la navegación */
+nav {
+  background-color: #d1c4e9; /* Morado claro pastel */
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #000000; /* Negro */
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+  transition: color 0.3s ease; /* Transición de color */
+}
+
+nav ul li a:hover {
+  color: #6a1b9a; /* Morado más oscuro */
+}
+
+/* Estilos del main */
+main {
+  padding: 20px;
+}
+
+/* Estilos de las secciones */
+.banner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.banner h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registrate,
+.inicia-sesion {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.registrate a,
+.inicia-sesion a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #4527a0; /* Morado oscuro */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.registrate a:hover,
+.inicia-sesion a:hover {
+  background-color: #6a1b9a; /* Morado más oscuro */
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #d1c4e9; /* Morado claro pastel */
+  color: #4527a0; /* Morado oscuro */
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+footer ul li img:hover {
+  transform: scale(1.2);
+}
+
+footer ul li a {
+  color: #4527a0; /* Morado oscuro */
+  text-decoration: none;
+}
+
+/* Media Queries para diferentes tamaños de pantalla */
+
+@media screen and (max-width: 400px) {
+  /* Aquí puedes agregar estilos específicos para pantallas de hasta 400px de ancho */
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  /* Aquí puedes agregar estilos específicos para pantallas de entre 401px y 800px de ancho */
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  /* Aquí puedes agregar estilos específicos para pantallas de entre 801px y 1000px de ancho */
+}
